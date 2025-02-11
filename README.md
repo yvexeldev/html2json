@@ -15,7 +15,7 @@ bun install
 To use the tool, run the following command:
 
 ```bash
-bun run indet.js --html <path_to_html_file>
+bun run index.ts --html <path_to_html_file>
 ```
 
 ### Options
@@ -26,7 +26,7 @@ bun run indet.js --html <path_to_html_file>
 ### Example
 
 ```bash
-bun run index.js --html ./data/business.html --output ./data/business.json
+bun run index.ts --html ./data/business.html [--output ./data/business.json (optional)]
 ```
 
 This command will read the HTML file at `./data/business.html`, extract the business information, and save it to `./data/business.json`.
