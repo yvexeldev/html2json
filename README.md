@@ -15,7 +15,7 @@ bun install
 To use the tool, run the following command:
 
 ```bash
-bun run index.js --html <path_to_html_file> --output <path_to_output_json_file>
+bun run indet.js --html <path_to_html_file>
 ```
 
 ### Options
